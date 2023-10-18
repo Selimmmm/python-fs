@@ -1,0 +1,16 @@
+# Projet Volonté du D
+
+- Scraping avec class Retriever
+- Processing des données avec Processor
+- Mécanisme d'alertes avec Alerter
+
+
+# Fichiers
+## Pour le déploiement
+- `runtime.txt` : spécifie la version de Python
+- `requirements.txt` : spéficie les versions des packages 
+
+## Code Python
+- `main.py` : Point d'entrée
+- `retriever.py`, `processor.py`, `alerter.py`  : Classes
+- `time_exec.py` : Mesure du temps d'exécution
