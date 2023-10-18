@@ -12,7 +12,8 @@ def main():
     processor_instance = Processor(text=ps)
     divs_crew_names = processor_instance.extract_crew_names()
 
-    Alerter.alert("\n".join(divs_crew_names))
+    alerter = Alerter()
+    alerter.alert("\n".join(divs_crew_names))
 
     print(divs_crew_names)
 
