@@ -6,7 +6,9 @@ class Processor:
         self.text = text
 
     def extract_crew_names(self):
-        soup = BeautifulSoup(self.text)  # spécifier le parser serait une bonne idée
+        soup = BeautifulSoup(
+            self.text, "html.parser"
+        )  # spécifier le parser serait une bonne idée
 
         divs_crew = soup.find_all("td", class_="trsbas0")
         divs_crew_names = [
