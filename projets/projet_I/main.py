@@ -27,8 +27,6 @@ def main():
     alerter = Alerter()
     alerter.alert("\n".join(divs_crew_names))
 
-    print(divs_crew_names)
-
     ending_time = datetime.datetime.now()
 
     time_exec(starting_time, ending_time)
