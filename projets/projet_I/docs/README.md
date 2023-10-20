@@ -3,7 +3,7 @@
 # Setup 
 
 ## Installer PyEnv  & créer un environnement virtuel
-- Guide dans le fichier `setup_env.html ``
+- Guide dans le fichier `setup_env.html `
 
 
 
